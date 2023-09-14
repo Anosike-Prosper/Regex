@@ -8,7 +8,6 @@ console.log(regex2.test(/pop prop/));
 //ferret, ferry, and ferrari
 const regex3 = /^ferr/i;
 console.log(regex3.test("ferret ferry, ferrari"));
-console.log("ferret ferry ferrari referral".match(regex3));
 
 //Any word ending in ious
 const regex4 = /(ious)+/g;
